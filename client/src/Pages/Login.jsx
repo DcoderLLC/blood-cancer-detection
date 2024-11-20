@@ -1,9 +1,14 @@
 // import React from 'react'
 
+import { Box } from "@mui/material";
+import LoginForm from "../Components/Log/LoginForm";
+
 const Login = () => {
   return (
-    <div>Login</div>
-  )
-}
+    <Box>
+      <LoginForm />
+    </Box>
+  );
+};
 
-export default Login
+export default Login;
