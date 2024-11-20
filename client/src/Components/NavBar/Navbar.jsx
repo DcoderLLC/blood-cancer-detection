@@ -17,8 +17,7 @@ import { AiOutlineMenuUnfold } from "react-icons/ai";
 import { RiCustomerService2Fill } from "react-icons/ri"; // Contact Icon
 // import { RiAccountCircleFill } from "react-icons/ri";
 import { HiMiniInformationCircle } from "react-icons/hi2"; // About Icon
-// import logo from "../../assets/v.webp";
-// import logo from "../../assets/logo.jpg";
+import logo from "../../assets/logo.jpg";
 
 const Navbar = () => {
   const isSmallScreen = useMediaQuery("(max-width:768px)");
@@ -90,9 +89,9 @@ const Navbar = () => {
       >
         <Box className="flex items-center">
           {/* Logo Image */}
-          <Link to="https://raktacure.ai/" className="flex items-center">
+          <Link to="/" className="flex items-center">
             <img
-              src={'logo'} // Replace with the path to your logo
+              src={logo} // Replace with the path to your logo
               alt="Vistara Software"
               className="h-20  mr-2"
             />

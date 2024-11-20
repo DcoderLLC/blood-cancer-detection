@@ -10,7 +10,7 @@ import {
 import { Link } from "react-router-dom";
 import { FaWhatsappSquare, FaInstagram } from "react-icons/fa";
 import { MdNavigateNext, MdLocationOn, MdEmail } from "react-icons/md";
-// import logo from "../../assets/logo.jpg"; // Your logo image
+import logo from "../../assets/logo.jpg"; // Your logo image
 
 const Footer = () => {
   return (
@@ -20,7 +20,7 @@ const Footer = () => {
         <Grid item xs={12} sm={6} md={4}>
           <Box display="flex" flexDirection="column">
             <Link to="/" className="flex items-center">
-              <img src={'logo'} alt="Vistara Software" className="h-20 mr-2" />
+              <img src={logo} alt="Vistara Software" className="h-20 mr-2" />
               {/* <Typography variant="h5" sx={{ color: "#e70449", fontWeight: "bold" }}>
                 Rakta<span style={{ color: "#000" }}>Cure</span>
               </Typography> */}
