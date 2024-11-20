@@ -6,6 +6,9 @@ import Dashboard from "./Pages/Dashboard";
 import Reports from "./Pages/Reports";
 import About from "./Pages/About";
 import Contact from "./Pages/Contact";
+import Login from "./Pages/Login";
+import Signup from "./Pages/Signup";
+import Footer from "./Components/Footer/Footer";
 
 function App() {
   return (
@@ -13,13 +16,15 @@ function App() {
       <Router>
         <Navbar />
         <Routes>
-          <Route path="/" exact element={<Dashboard />} />
-          <Route path="/" exact element={<Reports />} />
-          <Route path="/" exact element={<About />} />
-          <Route path="/" exact element={<Contact />} />
+          <Route path="/" exact element={<Login />} />
+          <Route path="/register" exact element={<Signup />} />
+          <Route path="/dashboard" exact element={<Dashboard />} />
+          <Route path="/reports" exact element={<Reports />} />
+          <Route path="/about" exact element={<About />} />
+          <Route path="/contact" exact element={<Contact />} />
         </Routes>
+        <Footer />
       </Router>
-      <h1 className="text-3xl font-bold underline">Hello world!</h1>
     </Box>
   );
 }
