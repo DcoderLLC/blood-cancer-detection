@@ -21,7 +21,7 @@ const Sidebar = () => {
 
             <Link
               className="flex items-center px-3 py-2 text-[#e70449] transition-colors duration-300 transform rounded-lg hover:text-white hover:bg-[#C0033D]"
-              to="/home"
+              to="/dashboard"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -53,7 +53,7 @@ const Sidebar = () => {
 
             <Link
               className="flex items-center px-3 py-2 text-[#e70449] transition-colors duration-300 transform rounded-lg hover:text-white hover:bg-[#C0033D]"
-              to="/aboutme"
+              to="/about"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -69,7 +69,7 @@ const Sidebar = () => {
 
             <Link
               className="flex items-center px-3 py-2 text-[#e70449] transition-colors duration-300 transform rounded-lg hover:text-white hover:bg-[#C0033D]"
-              to="/contactme"
+              to="/contact"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
